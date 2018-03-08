@@ -2,3 +2,60 @@ html {
   background: #f2f1f4;
   color: #19171c;
 }
+
+h1 {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+}
+
+.column {
+  width: 33%;
+  float: left;
+}
+
+.flower {
+  text-align: center;
+  padding: 5px;
+  margin: 10px;
+  /* background-color: yellow; */
+  position: relative;
+  text-align: left;
+  color: grey;
+}
+
+.bottom-left {
+  position: absolute;
+    bottom: 15px;
+    background-color: white;
+    height: auto;
+    /* height: 10px; */
+}
+
+.name {
+  font-size: 10px;
+  font-style: normal;
+}
+
+img {
+  width: 100%;
+}
+
+footer {
+  font-size: 10px;
+  font-style: italic;
+}
+
+
+@media (max-width: 600px) {
+  .column {
+    width: 100%
+  }
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+  .column {
+    width: 50%
+  }
+}
